@@ -5,9 +5,9 @@
   Add your open source license, GitHub uses Creative Commons Attribution 4.0 International.
 -->
 
-# Introduction to GitHub
+# Widefield CtxCa
 
-_Get started using GitHub in less than an hour._
+_Analysis pipeline for widefield cortical Ca2+ imaging data from mice._
 
 <!-- 
   <<< Author notes: Start of the course >>> 
