@@ -5,9 +5,9 @@
   Add your open source license, GitHub uses Creative Commons Attribution 4.0 International.
 -->
 
-# Analytical pipeline for analyzing wide-field Ca2+ imaging data.
+# Widefield-CtxCa
 
-_Get started using GitHub in less than an hour._
+_Analysis pipeline for widefield/macroscopic calcium imaging data._
 
 <!-- 
   <<< Author notes: Start of the course >>> 
