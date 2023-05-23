@@ -7,7 +7,7 @@
 
 # Widefield CtxCa
 
-_Analysis pipeline for widefield cortical Ca2+ imaging data from mice._
+_Analysis pipeline for widefield cortical Ca<sup>2+</sup> imaging data from mice._
 
 <!-- 
   <<< Author notes: Start of the course >>> 
