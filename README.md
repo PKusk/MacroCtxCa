@@ -27,8 +27,9 @@ _Analysis pipeline for widefield cortical Ca<sup>2+</sup> imaging data from mice
 
 2. Generate and apply automatic cortex outline mask to image stack.
 3. Align images and mask to location of bregma and lambda.
-4. Extract the top 40 independent components from the image stack using the PCA and JADE, approach from [Makino et al. 2017, Neuron](https://doi.org/10.1016/j.neuron.2017.04.015).
-5. 
+4. Generate cortex anatomical annotations map from the Allen brain atlas Common Coordinate Framework (ACCF) and the aligned mask.
+5. Extract the top 40 independent components from the image stack using the PCA and JADE, approach from [Makino et al. 2017, Neuron](https://doi.org/10.1016/j.neuron.2017.04.015).
+6. 
 
 
    
