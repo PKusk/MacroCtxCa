@@ -18,20 +18,19 @@ _Analysis pipeline for widefield cortical Ca<sup>2+</sup> imaging data from mice
   Do not use quotes on the <details> tag attributes.
 -->
 
-## Image Data Pre-processing
+## Image data pre-processing
 
 1. Convert image data into seperate tiff stacks and keep track of meta-data. 
 
-   - If you like me have been working with a Leica imaging system that produces .lif files, you can convert all image stacks in the .lif file to tiff stacks using the function **bf_lif2tiff.m**. This also outputs relevant meta-data in a tabular .xlsx format. You will need mm pr. pixel and sampling rate information.
-   - I would recommend binning your images to 256x256 or 128x128 if you have >10000 frames. This can be done automatically with the **bf_lif2tiff.m** function in the last input. 
-   
-2. In the new tab, follow the prompts to create a new repository.
+   - If you like me have been working with a Leica imaging system that produces .lif files, you can convert all image stacks in the .lif file to tiff stacks using the function **bf_lif2tiff.m**. This also outputs relevant meta-data in a tabular .xlsx format. You will need um per pixel and sampling rate information.
+   - I would recommend binning images to 256x256 or 128x128 if you have >10000 frames. This can be done automatically with the **bf_lif2tiff.m** function in the last input. 
 
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository—private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Name the repository something easy for you to recognize and remember.
-   
-   ![Create a new repository](/images/create-new-repository.png)
+2. Generate and apply automatic cortex outline mask to image stack.
+3. Align images and mask to location of bregma and lambda.
+4. Extract the top 40 independent components from the image stack using the PCA and JADE, approach from [Makino et al. 2017, Neuron](https://doi.org/10.1016/j.neuron.2017.04.015).
+5. 
+
+
    
 3. After your new repository is created, wait about 20 seconds, then refresh your new repository page. Follow the step-by-step instructions in the new repository's README. [GitHub Actions](https://docs.github.com/en/actions) will automatically close this welcome and open the first step.
 
