@@ -20,12 +20,10 @@ _Analysis pipeline for widefield cortical Ca<sup>2+</sup> imaging data from mice
 
 ## Image Data Pre-processing
 
-1. Convert imaging data into seperate tiff stacks and keep track of meta-data. 
+1. Convert image data into seperate tiff stacks and keep track of meta-data. 
 
-   - If you like me have been working with a Leica imaging system that produces .lif files, you can convert all image stacks in the .lif file to tiff stacks using the function **bf_lif2tiff.m**. This also outputs relevant meta-data in a tabular .xlsx format.
-   - 
-   
-   [![start-course](https://user-images.githubusercontent.com/1221423/218596841-0645fe1a-4aaf-4f51-9ab3-8aa2d3fdd487.svg)](https://github.com/skills/introduction-to-github/generate)
+   - If you like me have been working with a Leica imaging system that produces .lif files, you can convert all image stacks in the .lif file to tiff stacks using the function **bf_lif2tiff.m**. This also outputs relevant meta-data in a tabular .xlsx format. You will need mm pr. pixel and sampling rate information.
+   - I would recommend binning your images to 256x256 or 128x128 if you have >10000 frames. This can be done automatically with the **bf_lif2tiff.m** function in the last input. 
    
 2. In the new tab, follow the prompts to create a new repository.
 
