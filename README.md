@@ -18,6 +18,9 @@ _Analysis pipeline for widefield cortical Ca<sup>2+</sup> imaging data from mice
   Do not use quotes on the <details> tag attributes.
 -->
 
+## Required tools
+ - to run the pre-processing code to convert .lif to .tiff you will need the [Bio-Formats MatLAB package] (![image](https://github.com/PKusk/MacroCtxCa/assets/69124936/eea09825-8282-4c8b-8877-50212ef78052)
+
 ## Image data pre-processing
 
 1. Convert image data into seperate tiff stacks and keep track of meta-data. 
