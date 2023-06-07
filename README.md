@@ -19,7 +19,7 @@ _Analysis pipeline for widefield cortical Ca<sup>2+</sup> imaging data from mice
 -->
 
 ## Required tools
- - to run the pre-processing code to convert .lif to .tiff you will need the [Bio-Formats MatLAB package] (![image](https://github.com/PKusk/MacroCtxCa/assets/69124936/eea09825-8282-4c8b-8877-50212ef78052)
+ - to run the pre-processing code to convert .lif to .tiff you will need the [Bio-Formats MatLAB package] (https://www.openmicroscopy.org/bio-formats/downloads/)
 
 ## Image data pre-processing
 
