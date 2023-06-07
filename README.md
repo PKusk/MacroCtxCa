@@ -28,6 +28,7 @@ _Analysis pipeline for widefield cortical Ca<sup>2+</sup> imaging data from mice
 
    - If you like me have been working with a Leica imaging system that produces .lif files, you can convert all image stacks in the .lif file to tiff stacks using the function `bf_lif2tiff.m`. This also outputs relevant meta-data in a tabular .xlsx format. You will need um per pixel and sampling rate information.
    - I would recommend binning images to 256x256 or 128x128 if you have >10000 frames. This can be done automatically with the `bf_lif2tiff.m` function in the last input. 
+   - If you have many .lif files that needs conversion, the `lif_batch_processing.m` can be used.
 
 2. Generate and apply automatic cortex outline mask to image stack.
 3. Align images and mask to location of bregma and lambda.
