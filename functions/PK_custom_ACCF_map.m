@@ -8,7 +8,7 @@ function [coordinates, custom_ACCF]= PK_custom_ACCF_map(mask ,pixSize)
 
 im_size = size(mask);
 bregma = [im_size(1)*0.5 im_size(2)*0.5];
-ccfbregma = allenCCFbregma()/100/pixSize;
+ccfbregma = [540 0 570]/100/pixSize;
 load(fullfile(fileparts(mfilename('fullpath')), 'ctxOutlines.mat'));
 
 coordinates = []; regions = [];
