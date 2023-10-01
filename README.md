@@ -36,9 +36,10 @@ _Analysis pipeline for widefield cortical Ca<sup>2+</sup> imaging data from mice
 5. Extract the top 40 independent components from the image stack using the PCA and JADE, approach from [Makino et al. 2017, Neuron](https://doi.org/10.1016/j.neuron.2017.04.015).
 6. Annotate spatial components to the ACCF map.
 
+## Temporal component scoring
 
-   
-3. After your new repository is created, wait about 20 seconds, then refresh your new repository page. Follow the step-by-step instructions in the new repository's README. [GitHub Actions](https://docs.github.com/en/actions) will automatically close this welcome and open the first step.
+## ICA clustering using k-means
+
 
 </details>
 
