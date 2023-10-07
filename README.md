@@ -30,10 +30,20 @@ _Analysis pipeline for widefield cortical Ca<sup>2+</sup> imaging data from mice
    - If you have many .lif files that needs conversion, the `lif_batch_processing.m` can be used.
 
 2. Generate and apply automatic cortex outline mask to image stack.
-3. Align images and mask to location of bregma and lambda.
-4. Generate cortex anatomical annotations map from the Allen brain atlas Common Coordinate Framework (ACCF) and the aligned mask.
-5. Extract the top 40 independent components from the image stack using the PCA and JADE, approach from [Makino et al. 2017, Neuron](https://doi.org/10.1016/j.neuron.2017.04.015).
-6. Annotate spatial components to the ACCF map.
+    - Open `PK_MacroCtxCa_Pipeline.m`, input relevant data path and file names for image stacks, meta data and stimulation file (optional) and run the section.
+    - Run the automatic mask section and evaluate the result. Don't worry if it is not perfect.
+      
+4. Align images and mask to location of bregma and lambda.
+    - Run the section. A pop-up window will let you indicate first location of bregma and then location lambda manually. 
+    - Review the result and re-run the section if needed. You want the skull to be positioned in the middle of the image with the midline as parallel to the y-axis as possible.
+      
+5. Generate cortex anatomical annotations map from the Allen brain atlas Common Coordinate Framework (ACCF) and the aligned mask.
+    - Run the section. If you wish to review the map location and cropping input the `accf_regions` output in `imagesc`. 
+   
+6. Extract the top 40 independent components from the image stack using the PCA and JADE, approach from [Makino et al. 2017, Neuron](https://doi.org/10.1016/j.neuron.2017.04.015).
+   -
+   
+9. Annotate spatial components to the ACCF map.
 
 ## Temporal component scoring
 
