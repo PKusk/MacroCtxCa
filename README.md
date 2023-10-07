@@ -32,13 +32,16 @@ _Analysis pipeline for widefield cortical Ca<sup>2+</sup> imaging data from mice
 2. Generate and apply automatic cortex outline mask to image stack.
     - Open `PK_MacroCtxCa_Pipeline.m`, input relevant data path and file names for image stacks, meta data and stimulation file (optional) and run the section.
     - Run the automatic mask section and evaluate the result. Don't worry if it is not perfect.
-      
+      ![01_masked_image](https://github.com/PKusk/MacroCtxCa/assets/69124936/a1af8bb4-8388-4210-b66b-29ffd68f0aec)
+
 4. Align images and mask to location of bregma and lambda.
     - Run the section. A pop-up window will let you indicate first location of bregma and then location lambda manually. 
     - Review the result and re-run the section if needed. You want the skull to be positioned in the middle of the image with the midline as parallel to the y-axis as possible.
-      
+      ![aligned_image](https://github.com/PKusk/MacroCtxCa/assets/69124936/e42ee751-179c-44df-bfd4-8e925d23e0ff)
+
 5. Generate cortex anatomical annotations map from the Allen brain atlas Common Coordinate Framework (ACCF) and the aligned mask.
     - Run the section. If you wish to review the map location and cropping input the `accf_regions` output in `imagesc`. 
+      ![accf_map](https://github.com/PKusk/MacroCtxCa/assets/69124936/bb159f18-31b0-48bb-9887-db62e40ec543)
    
 6. Extract the top 40 independent components from the image stack using the PCA and JADE, approach from [Makino et al. 2017, Neuron](https://doi.org/10.1016/j.neuron.2017.04.015).
    - Run the section. The PCA/ICA is pretty demanding and takes time. 
