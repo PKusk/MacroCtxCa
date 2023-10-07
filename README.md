@@ -41,7 +41,7 @@ _Analysis pipeline for widefield cortical Ca<sup>2+</sup> imaging data from mice
     - Run the section. If you wish to review the map location and cropping input the `accf_regions` output in `imagesc`. 
    
 6. Extract the top 40 independent components from the image stack using the PCA and JADE, approach from [Makino et al. 2017, Neuron](https://doi.org/10.1016/j.neuron.2017.04.015).
-   -
+   - eee
    
 9. Annotate spatial components to the ACCF map.
 
