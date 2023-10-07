@@ -7,7 +7,7 @@
 
 # MacroCtxCa
 
-_Analysis pipeline for widefield cortical Ca<sup>2+</sup> imaging data from mice._
+_Analysis pipeline for widefield cortical Ca<sup>2+</sup> imaging data of transgenic GCaMP mice._
 
 <!-- 
   <<< Author notes: Start of the course >>> 
