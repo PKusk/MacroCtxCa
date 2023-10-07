@@ -32,8 +32,8 @@ _Analysis pipeline for widefield cortical Ca<sup>2+</sup> imaging data from mice
 2. Generate and apply automatic cortex outline mask to image stack.
     - Open `PK_MacroCtxCa_Pipeline.m`, input relevant data path and file names for image stacks, meta data and stimulation file (optional) and run the section.
     - Run the automatic mask section and evaluate the result. Don't worry if it is not perfect.
-        ![01_masked_image](https://github.com/PKusk/MacroCtxCa/assets/69124936/a1af8bb4-8388-4210-b66b-29ffd68f0aec)
-       <img src="01_masked_image" alt="drawing" width="200"/>
+        
+       <img src="![01_masked_image](https://github.com/PKusk/MacroCtxCa/assets/69124936/a1af8bb4-8388-4210-b66b-29ffd68f0aec)" height="200" width="200"/>
       
 
 4. Align images and mask to location of bregma and lambda.
