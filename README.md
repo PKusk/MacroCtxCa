@@ -56,4 +56,5 @@ Convert image data into seperate tiff stacks and keep track of meta-data.
    
 9. Save 
 
-## IC t-SNE clustering using k-means
+## Spatial IC t-SNE and k-means clustering homology analysis
+
