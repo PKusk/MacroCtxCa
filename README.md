@@ -30,7 +30,7 @@ Convert image data into seperate tiff stacks and keep track of meta-data.
    - If you have many .lif files that needs conversion, the `lif_batch_processing.m` can be used.
      <!-- <img src="https://github.com/PKusk/MacroCtxCa/assets/69124936/7c9c0f7b-2108-471d-b3d0-0c42a27bae41" width="300" height="300"> --!>
 
-## ICA/PCA Cortical Activity Extraction
+## ICA/PCA Based Cortical Activity Segmentation
 
 1. Generate and apply automatic cortex outline mask to image stack.
     - Open `PK_MacroCtxCa_Pipeline.m`, input relevant data path and file names for processed image stacks, meta data and stimulation file (optional) and run the section.
@@ -50,6 +50,10 @@ Convert image data into seperate tiff stacks and keep track of meta-data.
    -  Run the next section. This section annotates each component based on the highest mean value for a given region.
      
 6. Score each temporal component based on a generated "score-trace".
-   - d
+   - test
+  
+7. Evaluate all components with scores and annoations
+   
+9. Save 
 
 ## IC t-SNE clustering using k-means
