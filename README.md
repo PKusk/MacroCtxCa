@@ -41,17 +41,10 @@ _Analysis pipeline for widefield cortical Ca<sup>2+</sup> imaging data from mice
     - Run the section. If you wish to review the map location and cropping input the `accf_regions` output in `imagesc`. 
    
 6. Extract the top 40 independent components from the image stack using the PCA and JADE, approach from [Makino et al. 2017, Neuron](https://doi.org/10.1016/j.neuron.2017.04.015).
-   - eee
+   - Run the section. The PCA/ICA is pretty demanding and takes time. 
    
 9. Annotate spatial components to the ACCF map.
 
 ## Temporal component scoring
 
 ## ICA clustering using k-means
-
-
----
-
-Get help: [Post in our discussion board](https://github.com/skills/.github/discussions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2022 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
