@@ -56,5 +56,5 @@ Convert image data into seperate tiff stacks and keep track of meta-data.
    
 9. Save 
 
-## Spatial IC t-SNE and k-means clustering homology analysis
-
+## Spatial IC Homology Analysis using t-SNE and k-means Clustering
+_Still in development but the concept here is collect the ICs from the above analysis from multiple recordings and/or conditions and cluster cortical networks with homologous profiles, to evaluate preserved networks under certain behaior/conditions._
